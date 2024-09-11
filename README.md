@@ -25,8 +25,7 @@ Stored XSS occurs when the injected script is stored on the server, typically in
 
 ### 2. **Reflected XSS**
 
-**File: `reflected-xss.md`**
-# Reflected XSS
+
 
 
 Reflected XSS occurs when the malicious script is included in a URL or form input and reflected back to the user by the server. It is executed immediately when the user interacts with the crafted link. Unlike stored XSS, the payload is not stored on the server.
@@ -39,10 +38,7 @@ https://example.com/search?q=<script>alert('Reflected XSS')</script>
 
 ### 3. **DOM-based XSS**
 
-**File: `dom-based-xss.md`**
 
-
-# DOM-based XSS
 
 DOM-based XSS occurs on the client side, where the vulnerability exists in the web page's JavaScript code. The attack is executed when a script on the page processes input data from the URL or another DOM element without proper validation or sanitization.
 
