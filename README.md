@@ -19,9 +19,10 @@ Stored XSS occurs when the injected script is stored on the server, typically in
 #### Example:
 
 ```html
-<script>alert('Stored XSS')</script> ```
-
+<script>alert('Stored XSS')</script> 
+```
 مم
+
 ### 2. **Reflected XSS**
 
 **File: `reflected-xss.md`**
@@ -35,7 +36,3 @@ Reflected XSS occurs when the malicious script is included in a URL or form inpu
 
 ```html
 https://example.com/search?q=<script>alert('Reflected XSS')</script>
-
-
-
-
